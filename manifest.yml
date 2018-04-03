@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-de.mybluemix.net
+  name: nfsrulesiot
+  host: nfsrulesiot
+  disk_quota: 1024M
+  services:
+  - nfsrulesiot-cloudantNoSQLDB
